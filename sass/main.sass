@@ -1,0 +1,792 @@
+@import "bourbon"
+@import "vars.sass"
+@import "sprite/sprite.sass"
+
+// loads Libs SASS
+@import "app/libs/animate/animate.sass"
+@import "app/libs/owl.carousel/assets/owl.carousel.sass"
+@import "../app/libs/FontAwesome/font-awesome.min"
+@import "../app/libs/galery/lightgallery.min"
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+h2
+	@include font(#333, 55px, $font_PTSansRegular) 
+	text-align: center
+
+//	Секция we_know
+// меню
+
+.wrapper_we_know
+	background: #fff
+	.container
+		padding-bottom: 36px
+		h2
+			margin-bottom: 7px
+		.we_know
+			text-align: center
+			margin-bottom: 23px
+			h3
+				font-size: 30px
+				font-weight: lighter
+				margin: 0
+			.we_know_item_img
+				@extend %flex
+				height: 80px
+				margin-top: 30px
+				i
+
+					display: inline-block
+					&.item_img1
+						@include sprite($item_img1)
+					&.item_img2
+						@include sprite($item_img2)
+					&.item_img3
+						@include sprite($item_img3)
+					&.item_img4
+						@include sprite($item_img4)
+					&.item_img5
+						@include sprite($item_img5)
+					&.item_img6
+						@include sprite($item_img6)
+
+				
+	
+	
+//	Секция team
+
+.wrapper_team
+	background: #fff
+	.container
+		padding-bottom: 100px
+		.numeral_1_1
+			height: 280px
+			padding-top: 35px
+			margin-left: -50px
+		.numeral_2_2
+			margin-top: -80px
+			margin-left: -50px
+		.numeral_3_3
+			padding-top: 45px
+			margin-left: -50px
+		.numeral_1
+			display: none
+		.numeral_3
+			display: none
+		.numeral_2
+			display: none
+		.item_1
+			padding-left: 80px
+		.item_3
+			padding-left: 80px
+			margin-top: -15px
+		.item_4
+			margin-top: -15px
+		h5
+			font-size: 60px
+			color: $main_color
+			font-weight: lighter
+			margin: 0
+		span
+			color: $main_color
+			font-size: 36px
+			font-weight: lighter
+	
+
+
+//	Секция why_we
+.wrapper_why_we
+	background: url('../img/bg_order.png') 0 0 no-repeat	
+	background-size: cover
+	color: $auxiliary_txt_color
+	.container
+		padding-bottom: 108px
+		padding-top: 100px
+	h2
+		color: $auxiliary_txt_color
+		margin: 0
+	.why_we
+		text-align: center
+		span
+			font-size: 21px
+		.why_we_item_img
+			padding-top: 30px
+			padding-bottom: 10px
+			@extend %flex
+			i
+				
+				display: inline-block
+			.why_we1
+				width: 121px
+				height: 143px
+			.why_we2
+				width: 151px
+				height: 141px
+			.why_we3
+				width: 154px
+				height: 142px
+			.why_we4
+				width: 112px
+				height: 141px
+			.why_we1
+				background: url(../img/why_we1.png) 0 0 no-repeat
+			.why_we2
+				background: url(../img/why_we2.png) 0 0 no-repeat
+			.why_we3
+				background: url(../img/why_we3.png) 0 0 no-repeat
+			.why_we4
+				background: url(../img/why_we4.png) 0 0 no-repeat
+		
+			
+
+//	Секция works
+.wrapper_works
+	background: #fff
+	.container
+		margin-top: 53px
+	
+	.works_foto
+		padding-bottom: 20px
+//	Секция order
+.order
+	background: #fff
+	.container
+		padding-top: 17px
+		padding-bottom: 87px
+
+		h2
+			
+		.order_item
+			height: 135px
+			.order_item_img
+				float: left
+				img
+					padding-right: 10px
+			.order_item_text
+				line-height: 1.4
+			&:hover
+				.link
+					color: $main_color
+			.order_item_text
+			&:hover
+				.order_item_img
+					&:before
+						content: ""
+						position: absolute
+						background: url(../img/order_item_border.png)
+						width: 82px
+						height: 94px
+						
+
+			.order_item_text	
+				span
+					font-size: 14px
+					line-height: 1.1
+				.link
+					font-size: 18px
+					text-decoration: underline
+					transition: all 0.5s ease
+				.stock
+					color: #e74c3c
+
+		.blur_bg
+			.order_img
+				background: url(../img/image1.png) 0 0 no-repeat
+				height: 646px
+				width: 569px
+				transition: all 0.5s ease
+				background-size: cover 
+				.order_img_p
+					position: absolute
+					font-size: 48px
+					color: $auxiliary_txt_color
+					bottom: 7px
+					left: 60px
+					span
+						color: $main_color
+						font-size: 72px
+						padding-left: 20px
+
+
+//	Секция cost
+.cost
+	background: url('../img/bg_cost.jpg') 0 0 no-repeat
+	background-size: cover
+	.container
+		padding-top: 66px
+		padding-bottom: 100px
+		
+	
+		h2
+			color: $auxiliary_txt_color
+			text-align: left
+			margin-top: 0
+			margin-bottom: 19px
+		p
+			color: $auxiliary_txt_color
+		form
+			margin-top: 21px
+			color: $main_txt_color
+			input
+				background: #dbdbdb
+				opacity: 0.8
+				border: none
+				width: 100%
+				height: 50px
+				margin-bottom: 13px
+				padding-left: 20px
+				border-radius: 8px
+				&:hover
+					background: #fff
+				&.active
+					background: #fff
+				&:focus
+					outline: transparent
+					background: #fff
+			.modal_form_input_wrap
+				.modal_error_chest_img
+					top: -30px
+					left: -16px
+			.drop
+				position: absolute
+				z-index: 1
+				width: 90%
+				margin-top: 0
+				padding-left: 0
+				background: #fff
+				display: none
+				border-radius: 7px
+				&:active
+					background: #fff
+				&:hover
+					background: #fff
+				li
+					list-style: none
+					cursor: pointer
+					display: block
+					color: $main_txt_color
+					padding: 5px 0 5px 20px
+					transition: all 0.5s ease
+					&:hover
+						background-color: $main_color
+						border-radius: 7px
+						color: #fff
+					
+			.slct
+				display: block
+				overflow: hidden
+				width: 100%
+				height: 50px
+				margin-bottom: 13px
+				padding: 12px 0 0 20px
+				text-decoration: none
+				border-radius: 8px
+				background: #dbdbdb
+				opacity: 0.8
+				color: $main_txt_color
+				transition: all 0.5s ease
+				&:after
+					content: ""
+					position: absolute
+					background: url(../img/ico_select.png)
+					width: 11px
+					height: 6px
+					right: 39px
+					top: 23px
+				&:hover
+
+					background: #fff
+			.active
+					
+					background: #fff
+				
+			.button_coast
+				background: #f39200
+				opacity: 1
+				border: none
+				border-radius: 7px
+				color: #fff
+				height: 43px
+				text-align: center
+				margin-top: 7px
+				padding: 0
+				transition: all 0.5s ease
+				box-shadow: 0 3px 4px 0 #7e7b79
+				&:hover
+					background: #fe9f10
+					box-shadow: 0 3px 4px 0 #555455
+				&:focus
+					background: #fe9f10
+					box-shadow: 0 3px 4px 0 #555455
+					outline: transparent
+			.modal_form_input_wrap
+				position: relative
+				display: block
+				.modal_input_error
+					width: 141px
+					height: 35px
+					display: none
+					position: absolute
+					right: -13px
+					top: 56px
+					padding-left: 20px
+					font: 15px/35px $font_PTSansRegular
+					background-color: #fff
+					border-radius: 5px
+					z-index: 100
+					&.input_error_email
+						width: 215px
+					&.input_error_phone
+						width: 235px
+					&.form_error
+						display: block
+				.modal_error_chest_img
+					width: 9px
+					position: relative
+					background-image: url('../img/modal_error_chest_img.png')
+				.modal_error_triangle
+					width: 9px
+					position: relative
+					background-image: url('../img/modal_error_triangle.png')
+				.modal_error_chest_img
+					top: -30px
+					left: -15px	
+					height: 9px
+				.modal_error_triangle
+					top: -43px
+					left: 10px
+					height: 8px
+		textarea
+			background: #dbdbdb
+			opacity: 0.8
+			height: 113px
+			width: 100%
+			padding-left: 20px
+			padding-bottom: 9px
+			border-radius: 8px
+			transition: all 0.5s ease
+			&:hover
+				background: #fff
+			&:focus
+				outline: transparent
+				background: #fff
+		
+//	Секция clients
+.clients
+	background: #fff
+	.container
+		padding-bottom: 25px
+		padding-top: 100px
+		.recall
+			margin-bottom: 34px
+		h2
+			margin-bottom: 36px
+
+		h3
+			font-size: 24px
+			font-weight: lighter
+			margin-bottom: 9px
+			padding-left: 15px
+		p
+			font-size: 16px
+			line-height: 1.6
+			margin-bottom: 13px
+			padding-left: 15px
+		
+		a
+			color: $main_txt_color
+			text-decoration: underline
+			&:hover
+				color: $main_color
+				text-decoration: underline
+		i
+			color: $main_color
+			margin-right: 10px
+//	Секция how we work
+.how_we_work
+	background: #fff
+	.container
+		padding-top: 25px
+
+	h2
+		padding-bottom: 62px
+	h3
+		text-align: center
+		color: #babbbd
+		font-size: 60px
+		font-weight: lighter
+		margin: 0
+		padding-left: 30px
+	p
+		padding-left: 140px
+		&:before
+			content: ""
+			position: absolute
+			width: 143px
+			height: 143px
+			left: 36px
+			top: 0
+	.list_item_1
+		height: 250px
+		&:before
+			content: ""
+			background: url(../img/arow_right.png)
+			position: absolute
+			width: 329px
+			height: 61px
+			top: -47px
+			left: 141px
+		p
+			&:before
+				content: ""
+				background: url(../img/how_we_work_item1.png)
+	.list_item_2
+		height: 250px
+		&:before
+			content: ""
+			background: url(../img/arow_right.png)
+			position: absolute
+			width: 329px
+			height: 61px
+			top: -50px
+			left: 135px
+		p
+			&:before
+				content: ""
+				background: url(../img/how_we_work_item2.png)
+	.list_item_3
+		height: 250px
+		&:before
+			content: ""
+			background: url(../img/arow_down.png)
+			position: absolute
+			width: 37px
+			height: 200px
+			bottom: -34px
+			left: 10px
+		p
+			&:before
+				content: ""
+				background: url(../img/how_we_work_item3.png)
+	.list_item_4
+		height: 250px
+		p
+			&:before
+				content: ""
+				background: url(../img/how_we_work_item6.png)
+	.list_item_5
+		height: 250px
+		&:after
+			content: ""
+			background: url(../img/arow_left.png)
+			position: absolute
+			width: 344px
+			height: 81px
+			left: 116px
+			bottom: 48px
+		p
+			&:before
+				content: ""
+				background: url(../img/how_we_work_item5.png)
+	.list_item_6
+		height: 250px
+		&:after
+			content: ""
+			background: url(../img/arow_left.png)
+			position: absolute
+			width: 344px
+			height: 81px
+			left: 119px
+			bottom: 48px
+		p
+			&:before
+				content: ""
+				background: url(../img/how_we_work_item4.png)
+
+//	Секция order_celling
+.order_celling
+	background: url('../img/bg_order_celling.jpg') 0 0 no-repeat	
+	background-size: cover
+	.container
+		padding-bottom: 111px
+		padding-top: 42px
+		h2
+			color: $auxiliary_txt_color
+			margin-bottom: 21px
+		p
+			color: $auxiliary_txt_color
+			font-size: 23px
+			margin: 29px 0 0 7px
+			span
+				color: $main_color
+		form
+			margin-top: 24px
+			input
+				background: #dbdbdb
+				opacity: 0.8
+				height: 50px
+				width: 100%
+				border: none
+				padding-left: 20px
+				border-radius: 7px
+				position: relative
+				&:active
+					background: #fff
+				&:hover
+					background: #fff
+				.active
+					background: #fff
+				&:focus
+					outline: transparent
+					background: #fff
+			.modal_form_input_wrap
+				.modal_error_chest_img
+					top: -30px
+					left: -13px
+			.button_celling
+				background: #f39200
+				opacity: 1
+				border: none
+				height: 50px
+				text-align: center
+				padding: 0
+				transition: all 0.5s ease
+				color: #fff
+				box-shadow: 0 3px 4px 0 #7e7b79
+				&:hover
+					background: #fe9f10
+					box-shadow: 0 3px 4px 0 #555455
+				&:focus
+					outline: transparent
+					box-shadow: 0 3px 4px 0 #555455
+					background: #fe9f10
+		.mobile_order_p
+			display: none
+		.modal_form_input_wrap
+			position: relative
+			display: block
+			.modal_input_error
+				width: 141px
+				height: 35px
+				display: none
+				position: absolute
+				right: -13px
+				top: 56px
+				padding-left: 20px
+				font: 15px/35px $font_PTSansRegular
+				background-color: #fff
+				border-radius: 5px
+				z-index: 100
+				&.input_error_email
+					width: 215px
+				&.input_error_phone
+					width: 235px
+				&.form_error
+					display: block
+			.modal_error_chest_img
+				width: 9px
+				position: relative
+				background-image: url('../img/modal_error_chest_img.png')
+			.modal_error_triangle
+				width: 9px
+				position: relative
+				background-image: url('../img/modal_error_triangle.png')
+			.modal_error_chest_img
+				top: -33px
+				left: 0				
+				height: 9px
+			.modal_error_triangle
+				top: -43px
+				left: 10px
+				height: 8px
+
+//	Секция guarantea
+.guarantea
+	text-align: center
+	background: #fff
+	background-image: url('../img/bg_guarantea.jpg.jpg') 50% 50% no-repeat
+	.container
+		margin-top: 107px
+		margin-bottom: 118px
+	
+	
+	h2
+		margin: 14px 0 44px
+	img
+		padding-bottom: 20px
+	p
+		font-style: italic
+		font-size: 38px
+		line-height: 1.4
+		span
+			color: $main_color
+	
+// Секия footer 
+.footer
+	background: url('../img/bg_footer.jpg')
+	background-size: cover
+	.container
+		padding-top: 79px
+		padding-bottom: 50px
+
+	h3
+		color: $auxiliary_txt_color
+		text-align: center
+		font-size: 30px
+		margin: 0
+		font-weight: lighter
+	h4
+		margin: 30px 0 40px
+		font-size: 36px
+		font-weight: lighter
+		color: $auxiliary_txt_color
+	p
+		color: $auxiliary_txt_color
+		font-size: 18px
+		margin-bottom: 32px
+		a
+			color: $auxiliary_txt_color
+			font-size: 18px
+			transition: all 0.5s ease
+			&:hover
+				color: $main_color
+	i
+		color: $auxiliary_txt_color
+		font-size: 36px
+		padding-right: 10px
+		transition: all 0.5s ease
+		&:hover
+			color: $main_color
+
+	form
+		margin-top: 30px
+		width: 67%
+		margin: 0 auto
+		padding-top: 26px
+		input
+			background: #dbdbdb
+			opacity: 0.8
+			height: 50px
+			width: 70%
+			padding-left: 20px
+			border-radius: 5px
+			margin: 10px 0 0 55px
+			&:active
+				background: #fff
+			&:hover
+				background: #fff
+			&:focus
+				outline: transparent
+				background: #fff
+		.modal_form_input_wrap
+			
+			.modal_input_error
+				background: #fff
+				padding-left: 20px
+				right: -48px
+				top: 68px
+			.modal_error_chest_img
+				top: -30px
+				left: -14px
+		.button_footer
+			background: #f39200
+			opacity: 1
+			border: none
+			color: #fff
+			height: 50px
+			text-align: center
+			padding: 0
+			transition: all 0.5s ease
+			box-shadow: 0 3px 4px 0 #7e7b79
+			&:hover
+				background: #fe9f10
+				box-shadow: 0 3px 4px 0 #555455
+			&:focus
+				outline: transparent
+				box-shadow: 0 3px 4px 0 #555455
+				background: #fe9f10
+		.modal_form_input_wrap
+			position: relative
+			display: block
+			.modal_input_error
+				width: 141px
+				height: 35px
+				display: none
+				position: absolute
+				right: -13px
+				top: 56px
+				padding-left: 20px
+				font: 15px/35px $font_PTSansRegular
+				background-color: #fff
+				border-radius: 5px
+				z-index: 100
+				&.input_error_email
+					width: 215px
+				&.input_error_phone
+					width: 235px
+				&.form_error
+					display: block
+			.modal_error_chest_img
+				width: 9px
+				position: relative
+				background-image: url('../img/modal_error_chest_img.png')
+			.modal_error_triangle
+				width: 9px
+				position: relative
+				background-image: url('../img/modal_error_triangle.png')
+			.modal_error_chest_img
+				top: -30px
+				left: -15px	
+				height: 9px
+			.modal_error_triangle
+				top: -43px
+				left: 10px
+				height: 8px
+	.footer_bottom
+		text-align: center
+		color: $auxiliary_txt_color
+		font-size: 14px
+		margin-top: 90px
+		
+		.copyright
+			float: left
+			
+		.confidentiality
+			color: $auxiliary_txt_color
+			text-decoration: none
+			transition: all 0.5s ease
+			&:hover
+				color: $main_color
+
+
+		.creation
+			float: right
+			position: relative
+			display: block
+			margin-right: 25px
+			a
+				margin-left: 15px
+		
+//ALWAYS END
+@import "media"
+

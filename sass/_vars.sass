@@ -1,0 +1,61 @@
+@import "bourbon"
+
+//main_color: #f39200
+//main_txt_color: #262626
+//main_bg_color: #fff
+//auxiliary_txt_color: #443133
+//font_PTSansRegular: "PTSansRegular", Arial, sans-serif
+//font_PTSansBold: "PTSansBold", Arial, sans-serif
+//font_PTSansItalic: "PTSansItalic", Arial, sans-serif
+//font_MyriadPro_Regular: "MyriadPro-Regular", Arial, sans-serif
+//font_MyriadPro_Bold: "MyriadPro-Bold", Arial, sans-serif
+
+$main_color: #f39200
+$auxiliary_txt_color: #fff
+$main_txt_color: #333
+$main_bg_color: #fff
+
+
+$font_PTSansRegular: "PTSansRegular", Arial, sans-serif
+$font_PTSansBold: "PTSansBold", Arial, sans-serif
+$font_PTSansItalic: "PTSansItalic", Arial, sans-serif
+
+
+@mixin font($color, $fz, $ff, $lh: 1.4)
+	color: $color
+	font: $fz $ff
+	line-height: $lh
+
+
+%main_btn
+	width: 272px
+	height: 49px
+	background-color: #f39200
+	-moz-border-radius: 5px
+	border: none
+	text-transform: uppercase
+	-webkit-border-radius: 7px
+	border-radius: 7px
+
+	@include font(#fff, 17px, $font_PTSansRegular) 
+%main_btn_hover
+	background-color: #333
+%main_btn_active
+	background-color: #333
+%main_btn_focus
+	background-color: #333
+	outline: 0	
+
+
+
+%flex 
+	display: flex
+	align-items: center
+	justify-content: center
+
+	
+			
+
+
+
+

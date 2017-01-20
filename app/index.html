@@ -1,0 +1,2404 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Лига</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon liga.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <!-- Bootstrap v3.3.4 Grid Styles -->
+    <style>
+        html {
+            font-family: sans-serif;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%
+        }
+
+        body {
+            margin: 0
+        }
+
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        main,
+        menu,
+        nav,
+        section,
+        summary {
+            display: block
+        }
+
+        audio,
+        canvas,
+        progress,
+        video {
+            display: inline-block;
+            vertical-align: baseline
+        }
+
+        audio:not([controls]) {
+            display: none;
+            height: 0
+        }
+
+        [hidden],
+        template {
+            display: none
+        }
+
+        a {
+            background-color: transparent
+        }
+
+        a:active,
+        a:hover {
+            outline: 0
+        }
+
+        abbr[title] {
+            border-bottom: 1px dotted
+        }
+
+        b,
+        strong {
+            font-weight: 700
+        }
+
+        dfn {
+            font-style: italic
+        }
+
+        h1 {
+            font-size: 2em;
+            margin: .67em 0
+        }
+
+        mark {
+            background: #ff0;
+            color: #000
+        }
+
+        small {
+            font-size: 80%
+        }
+
+        sub,
+        sup {
+            font-size: 75%;
+            line-height: 0;
+            position: relative;
+            vertical-align: baseline
+        }
+
+        sup {
+            top: -.5em
+        }
+
+        sub {
+            bottom: -.25em
+        }
+
+        img {
+            border: 0
+        }
+
+        svg:not(:root) {
+            overflow: hidden
+        }
+
+        figure {
+            margin: 1em 40px
+        }
+
+        hr {
+            -moz-box-sizing: content-box;
+            -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+            height: 0
+        }
+
+        pre {
+            overflow: auto
+        }
+
+        code,
+        kbd,
+        pre,
+        samp {
+            font-family: monospace, monospace;
+            font-size: 1em
+        }
+
+        button,
+        input,
+        optgroup,
+        select,
+        textarea {
+            color: inherit;
+            font: inherit;
+            margin: 0
+        }
+
+        button {
+            overflow: visible
+        }
+
+        button,
+        select {
+            text-transform: none
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"] {
+            -webkit-appearance: button;
+            cursor: pointer
+        }
+
+        button[disabled],
+        html input[disabled] {
+            cursor: default
+        }
+
+        button::-moz-focus-inner,
+        input::-moz-focus-inner {
+            border: 0;
+            padding: 0
+        }
+
+        input {
+            line-height: normal
+        }
+
+        input[type="checkbox"],
+        input[type="radio"] {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            padding: 0
+        }
+
+        input[type="number"]::-webkit-inner-spin-button,
+        input[type="number"]::-webkit-outer-spin-button {
+            height: auto
+        }
+
+        input[type="search"] {
+            -webkit-appearance: textfield;
+            -moz-box-sizing: content-box;
+            -webkit-box-sizing: content-box;
+            box-sizing: content-box
+        }
+
+        input[type="search"]::-webkit-search-cancel-button,
+        input[type="search"]::-webkit-search-decoration {
+            -webkit-appearance: none
+        }
+
+        fieldset {
+            border: 1px solid silver;
+            margin: 0 2px;
+            padding: .35em .625em .75em
+        }
+
+        legend {
+            border: 0;
+            padding: 0
+        }
+
+        textarea {
+            overflow: auto
+        }
+
+        optgroup {
+            font-weight: 700
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0
+        }
+
+        td,
+        th {
+            padding: 0
+        }
+
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box
+        }
+
+        :before,
+        :after {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box
+        }
+
+        html {
+            font-size: 10px;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+        }
+
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            line-height: 1.42857143;
+            color: #333;
+            background-color: #fff
+        }
+
+        input,
+        button,
+        select,
+        textarea {
+            font-family: inherit;
+            font-size: inherit;
+            line-height: inherit
+        }
+
+        a {
+            color: #337ab7;
+            text-decoration: none
+        }
+
+        a:hover,
+        a:focus {
+            color: #23527c;
+            text-decoration: underline
+        }
+
+        a:focus {
+            outline: thin dotted;
+            outline: 5px auto -webkit-focus-ring-color;
+            outline-offset: -2px
+        }
+
+        figure {
+            margin: 0
+        }
+
+        img {
+            vertical-align: middle
+        }
+
+        .img-responsive {
+            display: block;
+            max-width: 100%;
+            height: auto
+        }
+
+        .img-rounded {
+            border-radius: 6px
+        }
+
+        .img-thumbnail {
+            padding: 4px;
+            line-height: 1.42857143;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            -webkit-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out;
+            display: inline-block;
+            max-width: 100%;
+            height: auto
+        }
+
+        .img-circle {
+            border-radius: 50%
+        }
+
+        hr {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 0;
+            border-top: 1px solid #eee
+        }
+
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            padding: 0;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            border: 0
+        }
+
+        .sr-only-focusable:active,
+        .sr-only-focusable:focus {
+            position: static;
+            width: auto;
+            height: auto;
+            margin: 0;
+            overflow: visible;
+            clip: auto
+        }
+
+        [role="button"] {
+            cursor: pointer
+        }
+
+        .container {
+            margin-right: auto;
+            margin-left: auto;
+            padding-left: 15px;
+            padding-right: 15px
+        }
+
+        @media (min-width:768px) {
+            .container {
+                width: 750px
+            }
+        }
+
+        @media (min-width:992px) {
+            .container {
+                width: 970px
+            }
+        }
+
+        @media (min-width:1200px) {
+            .container {
+                width: 1170px
+            }
+        }
+
+        .container-fluid {
+            margin-right: auto;
+            margin-left: auto;
+            padding-left: 15px;
+            padding-right: 15px
+        }
+
+        .row {
+            margin-left: -15px;
+            margin-right: -15px
+        }
+
+        .col-xs-1,
+        .col-sm-1,
+        .col-md-1,
+        .col-lg-1,
+        .col-xs-2,
+        .col-sm-2,
+        .col-md-2,
+        .col-lg-2,
+        .col-xs-3,
+        .col-sm-3,
+        .col-md-3,
+        .col-lg-3,
+        .col-xs-4,
+        .col-sm-4,
+        .col-md-4,
+        .col-lg-4,
+        .col-xs-5,
+        .col-sm-5,
+        .col-md-5,
+        .col-lg-5,
+        .col-xs-6,
+        .col-sm-6,
+        .col-md-6,
+        .col-lg-6,
+        .col-xs-7,
+        .col-sm-7,
+        .col-md-7,
+        .col-lg-7,
+        .col-xs-8,
+        .col-sm-8,
+        .col-md-8,
+        .col-lg-8,
+        .col-xs-9,
+        .col-sm-9,
+        .col-md-9,
+        .col-lg-9,
+        .col-xs-10,
+        .col-sm-10,
+        .col-md-10,
+        .col-lg-10,
+        .col-xs-11,
+        .col-sm-11,
+        .col-md-11,
+        .col-lg-11,
+        .col-xs-12,
+        .col-sm-12,
+        .col-md-12,
+        .col-lg-12 {
+            position: relative;
+            min-height: 1px;
+            padding-left: 15px;
+            padding-right: 15px
+        }
+
+        .col-xs-1,
+        .col-xs-2,
+        .col-xs-3,
+        .col-xs-4,
+        .col-xs-5,
+        .col-xs-6,
+        .col-xs-7,
+        .col-xs-8,
+        .col-xs-9,
+        .col-xs-10,
+        .col-xs-11,
+        .col-xs-12 {
+            float: left
+        }
+
+        .col-xs-12 {
+            width: 100%
+        }
+
+        .col-xs-11 {
+            width: 91.66666667%
+        }
+
+        .col-xs-10 {
+            width: 83.33333333%
+        }
+
+        .col-xs-9 {
+            width: 75%
+        }
+
+        .col-xs-8 {
+            width: 66.66666667%
+        }
+
+        .col-xs-7 {
+            width: 58.33333333%
+        }
+
+        .col-xs-6 {
+            width: 50%
+        }
+
+        .col-xs-5 {
+            width: 41.66666667%
+        }
+
+        .col-xs-4 {
+            width: 33.33333333%
+        }
+
+        .col-xs-3 {
+            width: 25%
+        }
+
+        .col-xs-2 {
+            width: 16.66666667%
+        }
+
+        .col-xs-1 {
+            width: 8.33333333%
+        }
+
+        .col-xs-pull-12 {
+            right: 100%
+        }
+
+        .col-xs-pull-11 {
+            right: 91.66666667%
+        }
+
+        .col-xs-pull-10 {
+            right: 83.33333333%
+        }
+
+        .col-xs-pull-9 {
+            right: 75%
+        }
+
+        .col-xs-pull-8 {
+            right: 66.66666667%
+        }
+
+        .col-xs-pull-7 {
+            right: 58.33333333%
+        }
+
+        .col-xs-pull-6 {
+            right: 50%
+        }
+
+        .col-xs-pull-5 {
+            right: 41.66666667%
+        }
+
+        .col-xs-pull-4 {
+            right: 33.33333333%
+        }
+
+        .col-xs-pull-3 {
+            right: 25%
+        }
+
+        .col-xs-pull-2 {
+            right: 16.66666667%
+        }
+
+        .col-xs-pull-1 {
+            right: 8.33333333%
+        }
+
+        .col-xs-pull-0 {
+            right: auto
+        }
+
+        .col-xs-push-12 {
+            left: 100%
+        }
+
+        .col-xs-push-11 {
+            left: 91.66666667%
+        }
+
+        .col-xs-push-10 {
+            left: 83.33333333%
+        }
+
+        .col-xs-push-9 {
+            left: 75%
+        }
+
+        .col-xs-push-8 {
+            left: 66.66666667%
+        }
+
+        .col-xs-push-7 {
+            left: 58.33333333%
+        }
+
+        .col-xs-push-6 {
+            left: 50%
+        }
+
+        .col-xs-push-5 {
+            left: 41.66666667%
+        }
+
+        .col-xs-push-4 {
+            left: 33.33333333%
+        }
+
+        .col-xs-push-3 {
+            left: 25%
+        }
+
+        .col-xs-push-2 {
+            left: 16.66666667%
+        }
+
+        .col-xs-push-1 {
+            left: 8.33333333%
+        }
+
+        .col-xs-push-0 {
+            left: auto
+        }
+
+        .col-xs-offset-12 {
+            margin-left: 100%
+        }
+
+        .col-xs-offset-11 {
+            margin-left: 91.66666667%
+        }
+
+        .col-xs-offset-10 {
+            margin-left: 83.33333333%
+        }
+
+        .col-xs-offset-9 {
+            margin-left: 75%
+        }
+
+        .col-xs-offset-8 {
+            margin-left: 66.66666667%
+        }
+
+        .col-xs-offset-7 {
+            margin-left: 58.33333333%
+        }
+
+        .col-xs-offset-6 {
+            margin-left: 50%
+        }
+
+        .col-xs-offset-5 {
+            margin-left: 41.66666667%
+        }
+
+        .col-xs-offset-4 {
+            margin-left: 33.33333333%
+        }
+
+        .col-xs-offset-3 {
+            margin-left: 25%
+        }
+
+        .col-xs-offset-2 {
+            margin-left: 16.66666667%
+        }
+
+        .col-xs-offset-1 {
+            margin-left: 8.33333333%
+        }
+
+        .col-xs-offset-0 {
+            margin-left: 0
+        }
+
+        @media (min-width:768px) {
+            .col-sm-1,
+            .col-sm-2,
+            .col-sm-3,
+            .col-sm-4,
+            .col-sm-5,
+            .col-sm-6,
+            .col-sm-7,
+            .col-sm-8,
+            .col-sm-9,
+            .col-sm-10,
+            .col-sm-11,
+            .col-sm-12 {
+                float: left
+            }
+            .col-sm-12 {
+                width: 100%
+            }
+            .col-sm-11 {
+                width: 91.66666667%
+            }
+            .col-sm-10 {
+                width: 83.33333333%
+            }
+            .col-sm-9 {
+                width: 75%
+            }
+            .col-sm-8 {
+                width: 66.66666667%
+            }
+            .col-sm-7 {
+                width: 58.33333333%
+            }
+            .col-sm-6 {
+                width: 50%
+            }
+            .col-sm-5 {
+                width: 41.66666667%
+            }
+            .col-sm-4 {
+                width: 33.33333333%
+            }
+            .col-sm-3 {
+                width: 25%
+            }
+            .col-sm-2 {
+                width: 16.66666667%
+            }
+            .col-sm-1 {
+                width: 8.33333333%
+            }
+            .col-sm-pull-12 {
+                right: 100%
+            }
+            .col-sm-pull-11 {
+                right: 91.66666667%
+            }
+            .col-sm-pull-10 {
+                right: 83.33333333%
+            }
+            .col-sm-pull-9 {
+                right: 75%
+            }
+            .col-sm-pull-8 {
+                right: 66.66666667%
+            }
+            .col-sm-pull-7 {
+                right: 58.33333333%
+            }
+            .col-sm-pull-6 {
+                right: 50%
+            }
+            .col-sm-pull-5 {
+                right: 41.66666667%
+            }
+            .col-sm-pull-4 {
+                right: 33.33333333%
+            }
+            .col-sm-pull-3 {
+                right: 25%
+            }
+            .col-sm-pull-2 {
+                right: 16.66666667%
+            }
+            .col-sm-pull-1 {
+                right: 8.33333333%
+            }
+            .col-sm-pull-0 {
+                right: auto
+            }
+            .col-sm-push-12 {
+                left: 100%
+            }
+            .col-sm-push-11 {
+                left: 91.66666667%
+            }
+            .col-sm-push-10 {
+                left: 83.33333333%
+            }
+            .col-sm-push-9 {
+                left: 75%
+            }
+            .col-sm-push-8 {
+                left: 66.66666667%
+            }
+            .col-sm-push-7 {
+                left: 58.33333333%
+            }
+            .col-sm-push-6 {
+                left: 50%
+            }
+            .col-sm-push-5 {
+                left: 41.66666667%
+            }
+            .col-sm-push-4 {
+                left: 33.33333333%
+            }
+            .col-sm-push-3 {
+                left: 25%
+            }
+            .col-sm-push-2 {
+                left: 16.66666667%
+            }
+            .col-sm-push-1 {
+                left: 8.33333333%
+            }
+            .col-sm-push-0 {
+                left: auto
+            }
+            .col-sm-offset-12 {
+                margin-left: 100%
+            }
+            .col-sm-offset-11 {
+                margin-left: 91.66666667%
+            }
+            .col-sm-offset-10 {
+                margin-left: 83.33333333%
+            }
+            .col-sm-offset-9 {
+                margin-left: 75%
+            }
+            .col-sm-offset-8 {
+                margin-left: 66.66666667%
+            }
+            .col-sm-offset-7 {
+                margin-left: 58.33333333%
+            }
+            .col-sm-offset-6 {
+                margin-left: 50%
+            }
+            .col-sm-offset-5 {
+                margin-left: 41.66666667%
+            }
+            .col-sm-offset-4 {
+                margin-left: 33.33333333%
+            }
+            .col-sm-offset-3 {
+                margin-left: 25%
+            }
+            .col-sm-offset-2 {
+                margin-left: 16.66666667%
+            }
+            .col-sm-offset-1 {
+                margin-left: 8.33333333%
+            }
+            .col-sm-offset-0 {
+                margin-left: 0
+            }
+        }
+
+        @media (min-width:992px) {
+            .col-md-1,
+            .col-md-2,
+            .col-md-3,
+            .col-md-4,
+            .col-md-5,
+            .col-md-6,
+            .col-md-7,
+            .col-md-8,
+            .col-md-9,
+            .col-md-10,
+            .col-md-11,
+            .col-md-12 {
+                float: left
+            }
+            .col-md-12 {
+                width: 100%
+            }
+            .col-md-11 {
+                width: 91.66666667%
+            }
+            .col-md-10 {
+                width: 83.33333333%
+            }
+            .col-md-9 {
+                width: 75%
+            }
+            .col-md-8 {
+                width: 66.66666667%
+            }
+            .col-md-7 {
+                width: 58.33333333%
+            }
+            .col-md-6 {
+                width: 50%
+            }
+            .col-md-5 {
+                width: 41.66666667%
+            }
+            .col-md-4 {
+                width: 33.33333333%
+            }
+            .col-md-3 {
+                width: 25%
+            }
+            .col-md-2 {
+                width: 16.66666667%
+            }
+            .col-md-1 {
+                width: 8.33333333%
+            }
+            .col-md-pull-12 {
+                right: 100%
+            }
+            .col-md-pull-11 {
+                right: 91.66666667%
+            }
+            .col-md-pull-10 {
+                right: 83.33333333%
+            }
+            .col-md-pull-9 {
+                right: 75%
+            }
+            .col-md-pull-8 {
+                right: 66.66666667%
+            }
+            .col-md-pull-7 {
+                right: 58.33333333%
+            }
+            .col-md-pull-6 {
+                right: 50%
+            }
+            .col-md-pull-5 {
+                right: 41.66666667%
+            }
+            .col-md-pull-4 {
+                right: 33.33333333%
+            }
+            .col-md-pull-3 {
+                right: 25%
+            }
+            .col-md-pull-2 {
+                right: 16.66666667%
+            }
+            .col-md-pull-1 {
+                right: 8.33333333%
+            }
+            .col-md-pull-0 {
+                right: auto
+            }
+            .col-md-push-12 {
+                left: 100%
+            }
+            .col-md-push-11 {
+                left: 91.66666667%
+            }
+            .col-md-push-10 {
+                left: 83.33333333%
+            }
+            .col-md-push-9 {
+                left: 75%
+            }
+            .col-md-push-8 {
+                left: 66.66666667%
+            }
+            .col-md-push-7 {
+                left: 58.33333333%
+            }
+            .col-md-push-6 {
+                left: 50%
+            }
+            .col-md-push-5 {
+                left: 41.66666667%
+            }
+            .col-md-push-4 {
+                left: 33.33333333%
+            }
+            .col-md-push-3 {
+                left: 25%
+            }
+            .col-md-push-2 {
+                left: 16.66666667%
+            }
+            .col-md-push-1 {
+                left: 8.33333333%
+            }
+            .col-md-push-0 {
+                left: auto
+            }
+            .col-md-offset-12 {
+                margin-left: 100%
+            }
+            .col-md-offset-11 {
+                margin-left: 91.66666667%
+            }
+            .col-md-offset-10 {
+                margin-left: 83.33333333%
+            }
+            .col-md-offset-9 {
+                margin-left: 75%
+            }
+            .col-md-offset-8 {
+                margin-left: 66.66666667%
+            }
+            .col-md-offset-7 {
+                margin-left: 58.33333333%
+            }
+            .col-md-offset-6 {
+                margin-left: 50%
+            }
+            .col-md-offset-5 {
+                margin-left: 41.66666667%
+            }
+            .col-md-offset-4 {
+                margin-left: 33.33333333%
+            }
+            .col-md-offset-3 {
+                margin-left: 25%
+            }
+            .col-md-offset-2 {
+                margin-left: 16.66666667%
+            }
+            .col-md-offset-1 {
+                margin-left: 8.33333333%
+            }
+            .col-md-offset-0 {
+                margin-left: 0
+            }
+        }
+
+        @media (min-width:1200px) {
+            .col-lg-1,
+            .col-lg-2,
+            .col-lg-3,
+            .col-lg-4,
+            .col-lg-5,
+            .col-lg-6,
+            .col-lg-7,
+            .col-lg-8,
+            .col-lg-9,
+            .col-lg-10,
+            .col-lg-11,
+            .col-lg-12 {
+                float: left
+            }
+            .col-lg-12 {
+                width: 100%
+            }
+            .col-lg-11 {
+                width: 91.66666667%
+            }
+            .col-lg-10 {
+                width: 83.33333333%
+            }
+            .col-lg-9 {
+                width: 75%
+            }
+            .col-lg-8 {
+                width: 66.66666667%
+            }
+            .col-lg-7 {
+                width: 58.33333333%
+            }
+            .col-lg-6 {
+                width: 50%
+            }
+            .col-lg-5 {
+                width: 41.66666667%
+            }
+            .col-lg-4 {
+                width: 33.33333333%
+            }
+            .col-lg-3 {
+                width: 25%
+            }
+            .col-lg-2 {
+                width: 16.66666667%
+            }
+            .col-lg-1 {
+                width: 8.33333333%
+            }
+            .col-lg-pull-12 {
+                right: 100%
+            }
+            .col-lg-pull-11 {
+                right: 91.66666667%
+            }
+            .col-lg-pull-10 {
+                right: 83.33333333%
+            }
+            .col-lg-pull-9 {
+                right: 75%
+            }
+            .col-lg-pull-8 {
+                right: 66.66666667%
+            }
+            .col-lg-pull-7 {
+                right: 58.33333333%
+            }
+            .col-lg-pull-6 {
+                right: 50%
+            }
+            .col-lg-pull-5 {
+                right: 41.66666667%
+            }
+            .col-lg-pull-4 {
+                right: 33.33333333%
+            }
+            .col-lg-pull-3 {
+                right: 25%
+            }
+            .col-lg-pull-2 {
+                right: 16.66666667%
+            }
+            .col-lg-pull-1 {
+                right: 8.33333333%
+            }
+            .col-lg-pull-0 {
+                right: auto
+            }
+            .col-lg-push-12 {
+                left: 100%
+            }
+            .col-lg-push-11 {
+                left: 91.66666667%
+            }
+            .col-lg-push-10 {
+                left: 83.33333333%
+            }
+            .col-lg-push-9 {
+                left: 75%
+            }
+            .col-lg-push-8 {
+                left: 66.66666667%
+            }
+            .col-lg-push-7 {
+                left: 58.33333333%
+            }
+            .col-lg-push-6 {
+                left: 50%
+            }
+            .col-lg-push-5 {
+                left: 41.66666667%
+            }
+            .col-lg-push-4 {
+                left: 33.33333333%
+            }
+            .col-lg-push-3 {
+                left: 25%
+            }
+            .col-lg-push-2 {
+                left: 16.66666667%
+            }
+            .col-lg-push-1 {
+                left: 8.33333333%
+            }
+            .col-lg-push-0 {
+                left: auto
+            }
+            .col-lg-offset-12 {
+                margin-left: 100%
+            }
+            .col-lg-offset-11 {
+                margin-left: 91.66666667%
+            }
+            .col-lg-offset-10 {
+                margin-left: 83.33333333%
+            }
+            .col-lg-offset-9 {
+                margin-left: 75%
+            }
+            .col-lg-offset-8 {
+                margin-left: 66.66666667%
+            }
+            .col-lg-offset-7 {
+                margin-left: 58.33333333%
+            }
+            .col-lg-offset-6 {
+                margin-left: 50%
+            }
+            .col-lg-offset-5 {
+                margin-left: 41.66666667%
+            }
+            .col-lg-offset-4 {
+                margin-left: 33.33333333%
+            }
+            .col-lg-offset-3 {
+                margin-left: 25%
+            }
+            .col-lg-offset-2 {
+                margin-left: 16.66666667%
+            }
+            .col-lg-offset-1 {
+                margin-left: 8.33333333%
+            }
+            .col-lg-offset-0 {
+                margin-left: 0
+            }
+        }
+
+        .clearfix:before,
+        .clearfix:after,
+        .container:before,
+        .container:after,
+        .container-fluid:before,
+        .container-fluid:after,
+        .row:before,
+        .row:after {
+            content: " ";
+            display: table
+        }
+
+        .clearfix:after,
+        .container:after,
+        .container-fluid:after,
+        .row:after {
+            clear: both
+        }
+
+        .center-block {
+            display: block;
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        .pull-right {
+            float: right!important
+        }
+
+        .pull-left {
+            float: left!important
+        }
+
+        .hide {
+            display: none!important
+        }
+
+        .show {
+            display: block!important
+        }
+
+        .invisible {
+            visibility: hidden
+        }
+
+        .text-hide {
+            font: 0/0 a;
+            color: transparent;
+            text-shadow: none;
+            background-color: transparent;
+            border: 0
+        }
+
+        .hidden {
+            display: none!important
+        }
+
+        .affix {
+            position: fixed
+        }
+
+        .visible-xs,
+        .visible-sm,
+        .visible-md,
+        .visible-lg {
+            display: none!important
+        }
+
+        .visible-xs-block,
+        .visible-xs-inline,
+        .visible-xs-inline-block,
+        .visible-sm-block,
+        .visible-sm-inline,
+        .visible-sm-inline-block,
+        .visible-md-block,
+        .visible-md-inline,
+        .visible-md-inline-block,
+        .visible-lg-block,
+        .visible-lg-inline,
+        .visible-lg-inline-block {
+            display: none!important
+        }
+
+        @media (max-width:767px) {
+            .visible-xs {
+                display: block!important
+            }
+            table.visible-xs {
+                display: table
+            }
+            tr.visible-xs {
+                display: table-row!important
+            }
+            th.visible-xs,
+            td.visible-xs {
+                display: table-cell!important
+            }
+            .visible-xs-block {
+                display: block!important
+            }
+            .visible-xs-inline {
+                display: inline!important
+            }
+            .visible-xs-inline-block {
+                display: inline-block!important
+            }
+        }
+
+        @media (min-width:768px) and (max-width:991px) {
+            .visible-sm {
+                display: block!important
+            }
+            table.visible-sm {
+                display: table
+            }
+            tr.visible-sm {
+                display: table-row!important
+            }
+            th.visible-sm,
+            td.visible-sm {
+                display: table-cell!important
+            }
+            .visible-sm-block {
+                display: block!important
+            }
+            .visible-sm-inline {
+                display: inline!important
+            }
+            .visible-sm-inline-block {
+                display: inline-block!important
+            }
+        }
+
+        @media (min-width:992px) and (max-width:1199px) {
+            .visible-md {
+                display: block!important
+            }
+            table.visible-md {
+                display: table
+            }
+            tr.visible-md {
+                display: table-row!important
+            }
+            th.visible-md,
+            td.visible-md {
+                display: table-cell!important
+            }
+            .visible-md-block {
+                display: block!important
+            }
+            .visible-md-inline {
+                display: inline!important
+            }
+            .visible-md-inline-block {
+                display: inline-block!important
+            }
+        }
+
+        @media (min-width:1200px) {
+            .visible-lg {
+                display: block!important
+            }
+            table.visible-lg {
+                display: table
+            }
+            tr.visible-lg {
+                display: table-row!important
+            }
+            th.visible-lg,
+            td.visible-lg {
+                display: table-cell!important
+            }
+        }
+
+        @media (min-width:1200px) {
+            .visible-lg-block {
+                display: block!important
+            }
+        }
+
+        @media (min-width:1200px) {
+            .visible-lg-inline {
+                display: inline!important
+            }
+        }
+
+        @media (min-width:1200px) {
+            .visible-lg-inline-block {
+                display: inline-block!important
+            }
+        }
+
+        @media (max-width:767px) {
+            .hidden-xs {
+                display: none!important
+            }
+        }
+
+        @media (min-width:768px) and (max-width:991px) {
+            .hidden-sm {
+                display: none!important
+            }
+        }
+
+        @media (min-width:992px) and (max-width:1199px) {
+            .hidden-md {
+                display: none!important
+            }
+        }
+
+        @media (min-width:1200px) {
+            .hidden-lg {
+                display: none!important
+            }
+        }
+
+        .visible-print {
+            display: none!important
+        }
+
+        @media print {
+            .visible-print {
+                display: block!important
+            }
+            table.visible-print {
+                display: table
+            }
+            tr.visible-print {
+                display: table-row!important
+            }
+            th.visible-print,
+            td.visible-print {
+                display: table-cell!important
+            }
+        }
+
+        .visible-print-block {
+            display: none!important
+        }
+
+        @media print {
+            .visible-print-block {
+                display: block!important
+            }
+        }
+
+        .visible-print-inline {
+            display: none!important
+        }
+
+        @media print {
+            .visible-print-inline {
+                display: inline!important
+            }
+        }
+
+        .visible-print-inline-block {
+            display: none!important
+        }
+
+        @media print {
+            .visible-print-inline-block {
+                display: inline-block!important
+            }
+        }
+
+        @media print {
+            .hidden-print {
+                display: none!important
+            }
+        }
+    </style>
+    <!-- Header CSS (First Sections of Website: paste after release from header.min.css here) -->
+    <style>
+        html .loader {
+            background: #fff;
+            bottom: 0;
+            height: 100%;
+            left: 0;
+            position: fixed;
+            right: 0;
+            top: 0;
+            width: 100%;
+            z-index: 9999
+        }
+
+        html .loader .loader_inner {
+            background-image: url(../img/preloader.gif);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-color: #fff;
+            height: 60px;
+            width: 60px;
+            margin-top: -30px;
+            margin-left: -30px;
+            left: 50%;
+            top: 50%;
+            position: absolute
+        }
+    </style>
+    <!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
+    <script>
+        ! function(e) {
+            "use strict";
+
+            function t(e, t, n) {
+                e.addEventListener ? e.addEventListener(t, n, !1) : e.attachEvent && e.attachEvent("on" + t, n)
+            }
+
+            function n(t, n) {
+                return e.localStorage && localStorage[t + "_content"] && localStorage[t + "_file"] === n
+            }
+
+            function a(t, a) {
+                if (e.localStorage && e.XMLHttpRequest) n(t, a) ? o(localStorage[t + "_content"]) : l(t, a);
+                else {
+                    var s = r.createElement("link");
+                    s.href = a, s.id = t, s.rel = "stylesheet", s.type = "text/css", r.getElementsByTagName("head")[0].appendChild(s), r.cookie = t
+                }
+            }
+
+            function l(e, t) {
+                var n = new XMLHttpRequest;
+                n.open("GET", t, !0), n.onreadystatechange = function() {
+                    4 === n.readyState && 200 === n.status && (o(n.responseText), localStorage[e + "_content"] = n.responseText, localStorage[e + "_file"] = t)
+                }, n.send()
+            }
+
+            function o(e) {
+                var t = r.createElement("style");
+                t.setAttribute("type", "text/css"), r.getElementsByTagName("head")[0].appendChild(t), t.styleSheet ? t.styleSheet.cssText = e : t.innerHTML = e
+            }
+            var r = e.document;
+            e.loadCSS = function(e, t, n) {
+                var a, l = r.createElement("link");
+                if (t) a = t;
+                else {
+                    var o;
+                    o = r.querySelectorAll ? r.querySelectorAll("style,link[rel=stylesheet],script") : (r.body || r.getElementsByTagName("head")[0]).childNodes, a = o[o.length - 1]
+                }
+                var s = r.styleSheets;
+                l.rel = "stylesheet", l.href = e, l.media = "only x", a.parentNode.insertBefore(l, t ? a : a.nextSibling);
+                var c = function(e) {
+                    for (var t = l.href, n = s.length; n--;)
+                        if (s[n].href === t) return e();
+                    setTimeout(function() {
+                        c(e)
+                    })
+                };
+                return l.onloadcssdefined = c, c(function() {
+                    l.media = n || "all"
+                }), l
+            }, e.loadLocalStorageCSS = function(l, o) {
+                n(l, o) || r.cookie.indexOf(l) > -1 ? a(l, o) : t(e, "load", function() {
+                    a(l, o)
+                })
+            }
+        }(this);
+    </script>
+    <!-- Load CSS Start -->
+    <script>
+        loadLocalStorageCSS("webfonts", "css/fonts.min.css?ver=1.0.0");
+    </script>
+    <script>
+        loadCSS("css/header.min.css?ver=1.0.0", false, "all");
+    </script>
+    <script>
+        loadCSS("css/main.min.css?ver=1.0.0", false, "all");
+    </script>
+    <!-- Load CSS End -->
+    <!-- Load CSS Compiled without JS -->
+    <noscript>
+        <link rel="stylesheet" href="css/fonts.min.css">
+        <link rel="stylesheet" href="css/main.min.css">
+      
+    </noscript>
+</head>
+
+<body>
+    <div class="loader">
+        <div class="loader_inner"></div>
+    </div>
+    <!-- Модальное окно -->
+    <div class="popup" id="win" data-modal="modal-1">
+        <div class="dm-table">
+            <div class="dm-cell">
+                <div class="dm-modal">
+                    <a href="#" class="close">
+                    </a>
+                    <p class='sucess_mail'>Заявка отправлена</p>
+                    <form id="form">
+                    <h2>Есть вопросы? Запишитесь на бесплатную консультацию</h2>
+                        <div>
+                            <div class="modal_form_input_wrap">
+                                <div class="modal_input_error">Заполните поле
+                                    <div class="modal_error_triangle"></div>
+                                    <div class="modal_error_chest_img"></div>
+                                </div>
+                                <input name="name" class="modal_form_input" placeholder="Ваше имя" type="text">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="modal_form_input_wrap">
+                                <div class="modal_input_error">Заполните поле
+                                    <div class="modal_error_triangle"></div>
+                                    <div class="modal_error_chest_img"></div>
+                                </div>
+                                <input name="phone" class="modal_form_phone" placeholder="Номер телефона" type="text">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="modal_form_input_wrap">
+                                <div class="modal_input_error">Заполните поле
+                                    <div class="modal_error_triangle"></div>
+                                    <div class="modal_error_chest_img"></div>
+                                </div>
+                                <input name="email" class="modal_form_email" placeholder="Email" type="text">
+                            </div>
+                        </div>
+                        <input type="hidden" name="form_name" value="Бесплатная консультация">
+                        <input type="hidden" name="equipment_parts" value="">
+                        <input type="submit" value="Отправить">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="overlay">
+        </div>
+    </div>
+    <!-- Модальное окно 2-->
+    <div class="popup2" id="win2">
+        <div class="dm-table">
+            <div class="dm-cell">
+                <div class="dm-modal">
+                    <a href="#" class="close">
+                    </a>
+                    <p class='sucess_mail'>Заявка отправлена</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup3" id="win3" data-modal="modal-3">
+        <div class="dm-table">
+            <div class="dm-cell">
+                <div class="dm-modal privacy-politic-modal">
+                    <a href="#" class="close">
+                    </a>
+                    <div class="dm-modal_inner">
+                        <p class="dm-modal_inner_h1">Политика конфиденциальности</p>
+                        <p class="dm-modal_inner_h2">Защита личных данных</p>
+                        <p>Для защиты ваших личных данных у нас внедрен ряд средств защиты, которые действуют при введении, передаче или работе с вашими личными данными.</p>
+                        <p class="dm-modal_inner_h2">Разглашение личных сведений и передача этих сведений третьим лицам</p>
+                        <p>Ваши личные сведения могут быть разглашены нами только в том случае это необходимо для: (а) обеспечения соответствия предписаниям закона или требованиям судебного процесса в нашем отношении ; (б) защиты наших прав или собственности (в) принятия срочных мер по обеспечению личной безопасности наших сотрудников или потребителей предоставляемых им услуг, а также обеспечению общественной безопасности. Личные сведения, полученные в наше распоряжение при регистрации, могут передаваться третьим организациям и лицам, состоящим с нами в партнерских отношениях для улучшения качества оказываемых услуг. Эти сведения не будут использоваться в каких-либо иных целях, кроме перечисленных выше. Адрес электронной почты, предоставленный вами при заказе товара, может использоваться для отправки вам сообщений или уведомлений об изменениях, связанных с вашей заявкой, а также рассылки сообщений о происходящих в компании событиях и изменениях, важной информации о новых товарах и услугах и т.д. Предусмотрена возможность отказа от подписки на эти почтовые сообщения.</p>
+                        <p class="dm-modal_inner_h2">Использование файлов «cookie»</p>
+                        <p>Когда пользователь посещает веб-узел, на его компьютер записывается файл «cookie» (если пользователь разрешает прием таких файлов). Если же пользователь уже посещал данный веб-узел, файл «cookie» считывается с компьютера. Одно из направлений использования файлов «cookie» связано с тем, что с их помощью облегчается сбор статистики посещения. Эти сведения помогают определять, какая информация, отправляемая заказчикам, может представлять для них наибольший интерес. Сбор этих данных осуществляется в обобщенном виде и никогда не соотносится с личными сведениями пользователей. Третьи стороны, включая компании Google, показывают объявления нашей компании на страницах сайтов в Интернете. Третьи стороны, включая компанию Google, используют cookie, чтобы показывать объявления, основанные на предыдущих посещениях пользователем наших веб-сайтов и интересах в веб-браузерах. Пользователи могут запретить компаниям Google использовать cookie. Для этого необходимо посетить специальную страницу компании Google по этому адресу: http://www.google.com/privacy/ads/</p>
+                        <p class="dm-modal_inner_h2">Изменения в заявлении о соблюдении конфиденциальности</p>
+                        <p>Заявление о соблюдении конфиденциальности предполагается периодически обновлять. При этом будет изменяться дата предыдущего обновления, указанная в начале документа. Сообщения об изменениях в данном заявлении будут размещаться на видном месте наших веб-узлов Осуществив заказ на нашем сайте какого-либо товара, Вы соглашаетесь получить смс-уведомление о доставке купленного Вами товара в соответствующее почтовое отделение, согласно указанному вами индексу.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay">
+        </div>
+    </div>
+    
+    <!-- Здесь пишем код -->
+    <section class="header_head">
+        <div class="container">
+            <div class="head">
+                <div class="header_head_logo">
+                    <a href="/"><img src="img/logo.png" alt="лига"></a>
+                </div>
+                <nav class="header_head_nav">
+                    <ul class="header_head_nav_list">
+                        <li>
+                            <a href="#about_us_id">О нас</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio_id">Портфолио</a>
+                        </li>
+                        <li>
+                            <a href="#catalog_id">Каталог</a>
+                        </li>
+                        <li class="free">
+                            <a href="#metr_id">Замер</a>
+                        </li>
+                        <li>
+                            <a href="#comment_id">Отзывы</a>
+                        </li>
+                        <li>
+                            <a href="#contacts_id">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header_head_callback">
+                    <a href="tel: 89279846868">8(927)984-68-68</a><br>
+                    <a data-modal="modal-1" data-info="Вызов модального окна." href="#" class="modal active">Обратный звонок</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <nav class="mobile_menu" slideLeft" id="header_nav_id">
+        <ul class="nav_list_mob">
+            <li>
+             <a href="#about_us_id">О нас</a>
+            </li>
+            <li>
+                <a href="#portfolio_id">Портфолио</a>
+            </li>
+            <li>
+                <a href="#catalog_id">Каталог</a>
+            </li>
+            <li>
+                <a href="#metr_id">Замер</a>
+            </li>
+            <li>
+                <a href="#comment_id">Отзывы</a>
+            </li>
+            <li>
+                <a href="#contacts_id">Контакты</a>
+            </li>
+        </ul>
+    </nav>
+    <section class="content-for-mobile-menu header slideRight">
+        <div class="container">
+            <div class="row">
+                <div class="header_logo col-lg-2 col-md-2 col-sm-3 col-xs-12">
+                    <a href="/"><img src="img/logo.png" alt="лига"></a>
+                </div> 
+                <div class="col-lg-8 col-md-7">
+                    <ul id="navToggle" class="burger slideRight">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <nav class="header_nav" id="header_nav_id">
+                        <ul class="nav_list">
+                            <li>
+                                <a href="#about_us_id">О нас</a>
+                            </li>
+                            <li>
+                                <a href="#portfolio_id">Портфолио</a>
+                            </li>
+                            <li>
+                                <a href="#catalog_id">Каталог</a>
+                            </li>
+                            <li>
+                                <a href="#metr_id">Замер</a>
+                            </li>
+                            <li>
+                                <a href="#comment_id">Отзывы</a>
+                            </li>
+                            <li>
+                                <a href="#contacts_id">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="callback col-lg-2 col-md-3 col-sm-9 col-xs-12">
+                    <a href="tel: 754766">754-766</a><br>
+                    <a href="tel: 89279846868">8(927)984-68-68</a><br>
+                    <a class="header_email" href="mailto:ligapotolki@yandex.ru">ligapotolki@yandex.ru</a><br>
+                    <a data-modal="modal-1" data-info="Вызов модального окна." href="#" class="modal active">Обратный звонок</a>
+                </div>
+                <div class="header_title col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h1 class="header_title_h">Установка натяжных потолков<br> любой сложности в Ульяновске</h1>
+                    <p>Сертифицированные антиалергенные потолки. Без запаха, экологически чистые, пожаробезопасные.</p>
+                    <div class="header_title_buttom_left col-lg-3 col-lg-push-3 col-md-3 col-md-push-3 col-sm-4 col-sm-push-2 col-xs-12">
+                        <button class="scroll_to " data-scroll="catalog_id">Посмотреть каталог</button>
+                    </div>
+                    <div class="header_title_buttom_right col-lg-3 col-lg-push-3 col-md-3 col-md-push-3 col-sm-4 col-sm-push-2 col-xs-12">
+                        <button data-scroll="metr_id" class="scroll_to">Бесплатный замер</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content-for-mobile-menu wrapper_we_know slideRight" id="about_us_id">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h2>Мы понимаем, что для вас важно</h2>
+                </div>
+                <div class="we_know col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="we_know_item_img">
+                        <i class="item_img1"></i>
+                    </div>
+                    <h3>Доступность</h3>
+                    <p>Мы предлогаем потолки<br> от эконом до премиум класса</p>
+                </div>
+                <div class="we_know col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="we_know_item_img">
+                        <i class="item_img2"></i>
+                    </div>
+                    <h3>Безопасность</h3>
+                    <p>Работаем профессиональным<br> и безопасным оборудованием</p>
+                </div>
+                <div class="we_know col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="we_know_item_img">
+                        <i class="item_img3"></i>
+                    </div>
+                    <h3>Поддержка</h3>
+                    <p>Обслуживание на протяжении<br> всего гарантийного срока</p>
+                </div>
+                <div class="we_know col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="we_know_item_img">
+                        <i class="item_img4"></i>
+                    </div>
+                    <h3>Уверенность</h3>
+                    <p>На все потолки имеется<br> официальный сертификат</p>
+                </div>
+                <div class="we_know col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="we_know_item_img">
+                        <i class="item_img5"></i>
+                    </div>
+                    <h3>Надежность</h3>
+                    <p>Перед началом работ<br> заключаем договор</p>
+                </div>
+                <div class="we_know col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="we_know_item_img">
+                        <i class="item_img6"></i>
+                    </div>
+                    <h3>Гарантия</h3>
+                    <p>15 лет на монтаж<br> и потолки. Возврат денег.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content-for-mobile-menu wrapper_team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Команда профессионалов — точно знающая, какой потолок вы хотите</h2>
+                </div>
+                <div class="wrap col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="item_1">
+                            <img src="img/team_1.png">
+                        </div>
+                    </div>
+                    <div class="numeral_1 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <h5>7<span> лет</span></h5>
+                        <p>устанавливаем потолки</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="item_2">
+                            <img src="img/team_2.png">
+                        </div>
+                    </div>
+                    <div class="numeral_1_1 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <h5>7<span> лет</span></h5>
+                        <p>устанавливаем потолки</p>
+                    </div>
+                    <div class="numeral_2 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <h5>2500<span> клиентов</span></h5>
+                        <p>довольных качеством работы</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="item_3">
+                            <img src="img/team_3.png">
+                        </div>
+                    </div>
+                    <div class="numeral_3 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <h5>30 000<span>м<sup>2</sup></span></h5>
+                        <p>Потолков установленно в общем</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="item_4">
+                            <img src="img/team_4.png">
+                        </div>
+                    </div>
+                    <div class="numeral_2_2 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <h5>2500<span> клиентов</span></h5>
+                        <p>довольных качеством работы</p>
+                    </div>
+                    <div class="numeral_3_3 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <h5>30 000<span>м<sup>2</sup></span></h5>
+                        <p>Потолков установленно в общем</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content-for-mobile-menu wrapper_why_we">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Поэтому мы точно знаем, вам нужен<br> такой потолок, чтобы</h2>
+                    <div class="why_we col-lg-3 col-sm-3 col-xs-6">
+                        <div class="why_we_item_img">
+                            <i class="why_we1"></i>
+                        </div>
+                        <span>На долгие годы</span>
+                    </div>
+                    <div class="why_we col-lg-3 col-sm-3 col-xs-6">
+                        <div class="why_we_item_img">
+                            <i class="why_we2"></i>
+                        </div>
+                        <span>Сохранял красивый вид</span>
+                    </div>
+                    <div class="why_we col-lg-3 col-sm-3 col-xs-6">
+                        <div class="why_we_item_img">
+                            <i class="why_we3"></i>
+                        </div>
+                        <span>Не провисал</span>
+                    </div>
+                    <div class="why_we col-lg-3 col-sm-3 col-xs-6">
+                        <div class="why_we_item_img">
+                            <i class="why_we4"></i>
+                        </div>
+                        <span>Защищал от проточек</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content-for-mobile-menu wrapper_works" id="portfolio_id">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Посмотрите наши работы</h2>
+                </div>
+                <div class="works_foto col-lg-4 col-lg-4 col-sm-4 col-xs-12">
+                    <img src="img/works_1.png">
+                </div>
+                <div class="works_foto col-lg-4 col-lg-4 col-sm-4 col-xs-12">
+                    <img src="img/works_2.png">
+                </div>
+                <div class="works_foto col-lg-4 col-lg-4 col-sm-4 col-xs-12">
+                    <img src="img/works_3.png">
+                </div>
+                <div class="works_foto col-lg-4 col-lg-4 col-sm-4 col-xs-12">
+                    <img src="img/works_4.png">
+                </div>
+                <div class="works_foto col-lg-4 col-lg-4 col-sm-4 col-xs-12">
+                    <img src="img/works_5.png">
+                </div>
+                <div class="works_foto col-lg-4 col-lg-4 col-sm-4 col-xs-12">
+                    <img src="img/works_6.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content-for-mobile-menu order" id="catalog_id">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Какие потолки мы предлагаем</h2>
+                </div>
+                <div id="selector1" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="col-lg-6 col-md-6 col-sm-4 col-xs-6 modal-slick table" data-price="от 250"  data-modal="modal-4">
+                        <div data-big="img/image1.png" class="order_item">
+                            <div class="order_item_img item" data-src="img/image1.png">
+                                <img src="img/order_item1.png" ait="alt">
+                            </div>
+                            <div class="order_item_text">
+                                <span class="link">Матовые</span><br>
+                                <span>Решение для любителей классических интерьеров.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-4 col-xs-6 table" data-price="1500"  data-modal="modal-4">
+                        <div data-big="img/image9.png" class="order_item">
+                            <div class="order_item_img item" data-src="img/image9.png">
+                                <img src="img/order_item6.png" ait="alt">
+                            </div>
+                            <div class="order_item_text">
+                                <span class="link">Тканевые</span><br>
+                                <span>Изысканное решение интерьера.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-4 col-xs-6 table" data-price="от 250"  data-modal="modal-4">
+                        <div data-big="img/image8.png" class="order_item">
+                            <div class="order_item_img item" data-src="img/image8.png">
+                                <img src="img/order_item2.png" ait="alt">
+                            </div>
+                            <div class="order_item_text">
+                                <span class="link">Сатиновые</span><br>
+                                <span>Лучшие качества глянцевых и матовых потолков в одном.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-4 col-xs-6 table" data-price="800">
+                        <div data-big="img/image2.png" class="order_item">
+                            <div class="order_item_img item" data-src="img/image2.png">
+                                <img src="img/order_item7.png" ait="alt">
+                            </div>
+                            <div class="order_item_text">
+                                <span class="link">APPLY</span><br>
+                                <span>Необычное решение для любителей экспрементов.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-4 col-xs-6 table" data-price="от 250">
+                        <div data-big="img/image10.png" class="order_item">
+                            <div class="order_item_img item" data-src="img/image10.png">
+                                <img src="img/order_item3.png" ait="alt">
+                            </div>
+                            <div class="order_item_text">
+                                <span class="link">Глянцевые</span><br>
+                                <span>Блеск и яркие краски наполнят комнату светом.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-4 col-xs-6 table" data-price="1000">
+                        <div data-big="img/image7.png" class="order_item">
+                            <div class="order_item_img item" data-src="img/image7.png">
+                                <img src="img/order_item8.png" ait="alt">
+                            </div>
+                            <div class="order_item_text">
+                                <span class="link stock">Фотопечать Акция</span><br>
+                                <span>Настоящая картина для творческих натур.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-4 col-xs-6 table" data-price="1500">
+                        <div data-big="img/image5.png" class="order_item">
+                            <div class="order_item_img item" data-src="img/image5.png">
+                                <img src="img/order_item4.png" ait="alt">
+                            </div>
+                            <div class="order_item_text">
+                                <span class="link">Многоуровневые</span><br>
+                                <span>Шедевр в сфере отделки и самые смелые фантазии.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-4 col-xs-6 table" data-price="1000">
+                        <div data-big="img/image6.png" class="order_item">
+                            <div class="order_item_img item" data-src="img/image6.png">
+                                <img src="img/order_item9.png" ait="alt">
+                            </div>
+                            <div class="order_item_text">
+                                <span class="link">Светящиеся</span><br>
+                                <span>Неповторимое очарование уют и тепло.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-4 col-xs-6 table" data-price="900">
+                        <div data-big="img/image4.png" class="order_item">
+                            <div class="order_item_img item" data-src="img/image4.png">
+                                <img src="img/order_item5.png" ait="alt">
+                            </div>
+                            <div class="order_item_text">
+                                <span class="link">Звездное небо</span><br>
+                                <span>Необъятные просторы космического пространства.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-4 col-xs-6 table" data-price="900">
+                        <div data-big="img/image3.png" class="order_item">
+                            <div class="order_item_img item" data-src="img/image3.png">
+                                <img src="img/order_item10.png" ait="alt">
+                            </div>
+                            <div class="order_item_text">
+                                <span class="link">Акустические</span><br>
+                                <span>Уникальное решение акустического комфорта.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 blur_bg">
+                    <div class="order_img">
+                        <p class="order_img_p">Цена:<span>250</span> руб м<sup>2</sup></p>
+                    </div>
+                </div>
+            </div>
+          </div>    
+    	</section>
+    <section class="content-for-mobile-menu cost" id="metr_id">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <h2>Давайте бесплатно рассчитаем стоимость</h2>
+                    <p>Если вы не знаете точных замеров вашего помещения, можете так же получить бесплатный замер от компании Лига. Для этого просто укажите в комментраиях слово “замер” и мы свяжемся с вами.</p>
+                </div>
+                <form id="form" action="#" method="post">
+                    <div class="form-wrap col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="form-wrap-item col-lg-6 col-md-6 col-sm-4 col-xs-10">
+                            <div class="modal_form_input_wrap">
+                                <div class="modal_input_error">Заполните поле
+                                    <div class="modal_error_triangle"></div>
+                                    <div class="modal_error_chest_img"></div>
+                                </div>
+                                <input name="area" class="modal_form_input" type="text" placeholder="Площадь помещения">
+                            </div>
+                        </div>
+                        <div class="select form-wrap-item form-wrap-item col-lg-6 col-md-6 col-sm-4 col-xs-10">
+                            <a href="#" class="slct">Дизайн потолка</a>
+                            <ul class="drop">
+                                <li>Матовые</li>
+                                <li>Сатиновые</li>
+                                <li>Глянцевые</li>
+                                <li>Многоуровневые</li>
+                                <li>Звездное небо</li>
+                                <li>Тканевые</li>
+                                <li>APPLY</li>
+                                <li>Фотопечать</li>
+                                <li>Светящиеся</li>
+                                <li>Акустические</li>
+                            </ul>
+                            <input name="design" type="hidden" id="select-design" />
+                        </div>
+                        <div class="select form-wrap-item form-wrap-item col-lg-6 col-md-6 col-sm-4 col-xs-10">
+                            <a href="#" class="slct">Количество углов</a>
+                            <ul class="drop">
+                                <li>2</li>
+                                <li>4</li>
+                                <li>5</li>
+                                <li>6</li>
+                                <li>7</li>
+                                <li>8</li>
+                                <li>9</li>
+                                <li>10</li>
+                            </ul>
+                            <input name="color" type="hidden" id="select-color" />
+                        </div>
+                        <div class="form-wrap-item col-lg-6 col-md-6 col-sm-4 col-xs-10">
+                            <div class="modal_form_input_wrap">
+                                <div class="modal_input_error">Заполните поле
+                                    <div class="modal_error_triangle"></div>
+                                    <div class="modal_error_chest_img"></div>
+                                </div>
+                                <input name="amount" class="modal_form_input" type="text" placeholder="Количество светильников">
+                            </div>
+                        </div>
+                        <div class="form-wrap-item col-lg-6 col-md-6 col-sm-4 col-xs-10">
+                            <div class="modal_form_input_wrap">
+                                <div class="modal_input_error">Заполните поле
+                                    <div class="modal_error_triangle"></div>
+                                    <div class="modal_error_chest_img"></div>
+                                </div>
+                                <input name="name" class="modal_form_input" type="text" placeholder="Ваше имя">
+                            </div>
+                        </div>
+                        <div class="form-wrap-item col-lg-6 col-md-6 col-sm-4 col-xs-10">
+                            <div class="modal_form_input_wrap">
+                                <div class="modal_input_error">Заполните поле
+                                    <div class="modal_error_triangle"></div>
+                                    <div class="modal_error_chest_img"></div>
+                                </div>
+                                <input name="phone" class="modal_form_phone" type="text" placeholder="Номер телефона">
+                            </div>
+                        </div>
+                        <div class="form-wrap-item col-lg-6 col-md-6 col-sm-8 col-xs-10">
+                            <textarea name="comment" placeholder="Коментарии"></textarea>
+                        </div>
+                        <div class="form-wrap-item col-lg-6 col-md-6 col-sm-4 col-xs-10">
+                            <div class="modal_form_input_wrap">
+                                <div class="modal_input_error">Заполните поле
+                                    <div class="modal_error_triangle"></div>
+                                    <div class="modal_error_chest_img"></div>
+                                </div>
+                                <input name="email" class="modal_form_email" type="text" placeholder="Email">
+                            </div>
+                        </div>
+                        <input type="hidden" name="form_name" value="<">
+                        <input type="hidden" name="equipment_parts" value="Безплатная консультация">
+                        <input type="hidden" name="id_form" value="form_2">
+                        <div class="form-wrap-item col-lg-6 col-md-6 col-sm-4 col-xs-10">
+                            <input type="submit" class="button_coast" value="Бесплатный замер">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="content-for-mobile-menu clients" id="comment_id">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Что говорят наши клиенты</h2>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <img src="img/clients_img_1.png">
+                    </div>
+                    <div class="recall col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                        <h3>Геннадий</h3>
+                        <p>Заказал двухуровневые потолки в коттедж общей площадью 150 м2. Сделали быстро и качественно. Полностью доволен работой.</p>
+                        <a href="vk.com/1231343434"><i class="fa fa-vk" aria-hidden="true"></i><b>vk.com/1231343434</b></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <img src="img/clients_img_2.png">
+                    </div>
+                    <div class="recall col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                        <h3>Свелана Борисовна</h3>
+                        <p>Заказала натяжной потолок в гостинку 24 м2. Белый глянец увеличил визуально размер квартиры. Сделали качественно и всего за 12000 рублей. Большое спасибо.</p>
+                        <a href="vk.com/1231343434"><i class="fa fa-vk" aria-hidden="true"></i><b>vk.com/1231343434</b></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <img src="img/clients_img_3.png">
+                    </div>
+                    <div class="recall col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                        <h3>семья Лапиных</h3>
+                        <p>Мы очень рады что попали под акцию «потолок в ванну в подарок». Благодаря чему у нас получилась суперскидка в 4000 руб.</p>
+                        <a href="vk.com/1231343434"><i class="fa fa-vk" aria-hidden="true"></i><b>vk.com/1231343434</b></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <img src="img/clients_img_4.png">
+                    </div>
+                    <div class="recall col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                        <h3>Никита</h3>
+                        <p>Просто супер. Ребята большие молодцы и профессионалы своего дела. Приехали вовремя, работали быстро и справились с монтажем на отлично! Ни смотря на непростые условия монтажа в "нишах" они доделали все прекрасно. Спасибо что помогли осуществить мой долгий план, мою мечту.</p>
+                        <a href="vk.com/1231343434"><i class="fa fa-vk" aria-hidden="true"></i><b>vk.com/1231343434</b></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content-for-mobile-menu how_we_work">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h2>Простая схема нашего сотрудничества</h2>
+                </div>
+                <div class="list_item_1 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <h3>1</h3>
+                    <p>Оставляете заявку<br> на замер или обратный<br> звонок</p>
+                </div>
+                <div class="list_item_2 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <h3>2</h3>
+                    <p>Менеджер звонит<br> и договаривается на<br> удобное время для замера</p>
+                </div>
+                <div class="list_item_3 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <h3>3</h3>
+                    <p>Эксперт производит замер<br> и консультирует вас по<br> техническим вопросам</p>
+                </div>
+                <div class="list_item_4 col-lg-4 col-lg-push-8 col-md-4 col-md-push-8 col-sm-4 col-sm-push-8 col-xs-12">
+                    <h3>4</h3>
+                    <p>После замера<br> заключаете договор</p>
+                </div>
+                <div class="list_item_5 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <h3>5</h3>
+                    <p>Вносите предоплату</p>
+                </div>
+                <div class="list_item_6 col-lg-4 col-lg-pull-8 col-lg-4 col-md-4 col-md-pull-8 col-sm-4 col-sm-pull-8 col-xs-12">
+                    <h3>6</h3>
+                    <p>Получаете потолки<br> в оговоренные сроки</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content-for-mobile-menu order_celling">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Закажите натяжные потолки сейчас и получите гардину в подарок!</h2>
+                </div>
+                <div class="mobile_order_p col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
+                    <p>При заказе натяжных потолков на всю квартиру <span>потолок в одну комнату бесплатно!</span></p>
+                </div>
+                <div class="col-lg-12">
+                    <form class="form-wrap" id="form">
+                        <div class="form-wrap-item col-lg-3 col-md-3 col-sm-4 col-xs-10">
+                            <div class="modal_form_input_wrap">
+                                <div class="modal_input_error">Заполните поле
+                                    <div class="modal_error_triangle"></div>
+                                    <div class="modal_error_chest_img"></div>
+                                </div>
+                                <input name="name" class="modal_form_input" type="text" placeholder="Ваше имя">
+                            </div>
+                        </div>
+                        <div class="form-wrap-item col-lg-3 col-md-3 col-sm-4 col-xs-10">
+                            <div class="modal_form_input_wrap">
+                                <div class="modal_input_error">Заполните поле
+                                    <div class="modal_error_triangle"></div>
+                                    <div class="modal_error_chest_img"></div>
+                                </div>
+                                <input name="phone" class="modal_form_phone" type="text" placeholder="Номер телефoна">
+                            </div>
+                        </div>
+                        <div class="form-wrap-item col-lg-3 col-md-3 col-sm-4 col-xs-10">
+                            <div class="modal_form_input_wrap">
+                                <div class="modal_input_error">Заполните поле
+                                    <div class="modal_error_triangle"></div>
+                                    <div class="modal_error_chest_img"></div>
+                                </div>
+                                <input name="email" class="modal_form_email" type="text" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-wrap-item-submit col-lg-3 col-md-3 col-sm-4 col-xs-10">
+                            <input type="submit" class="button_celling" value="Заказать потолки">
+                        </div>
+                        <input type="hidden" name="form_name" value="Заказать потолки">
+                        <input type="hidden" name="equipment_parts" value="">
+                        <input type="hidden" name="id_form" value="form_2">
+                    </form>
+                </div>
+                <div class="order_img_p col-lg-12 col-md-12"> 
+                    <p>При заказе натяжных потолков на всю квартиру <span>потолок в одну комнату бесплатно!</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content-for-mobile-menu guarantea">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Гарантия</h2>
+                    <img src="img/guarantea_img.png">
+                    <p>Если вас не устроило качеcтво потолков<br> или монтажа, <span>мы вернем Вам деньги</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content-for-mobile-menu footer" id="contacts_id">
+        <div class="container">
+            <div class="row">
+                <div class=" wrap col-lg-12 col-md-12 col-sm-12">
+                    <div class="form col-lg-7 col-md-7 col-sm-6 col-xs-12">
+                        <h3>Есть вопросы? Запишитесь<br> на бесплатную консультацию</h3>
+                        <form id="form">
+                            <div class="modal_form_input_wrap">
+                                <div class="modal_input_error">Заполните поле
+                                    <div class="modal_error_triangle"></div>
+                                    <div class="modal_error_chest_img"></div>
+                                </div>
+                                <input name="name" class="modal_form_input" type="text" placeholder="Ваше имя">
+                            </div>
+                            <div class="modal_form_input_wrap">
+                                <div class="modal_form_input_wrap">
+                                    <div class="modal_input_error">Заполните поле
+                                        <div class="modal_error_triangle"></div>
+                                        <div class="modal_error_chest_img"></div>
+                                    </div>
+                                    <input name="phone" class="modal_form_phone" type="text" placeholder="Номер телефона">
+                                </div>
+                            </div>
+                            <div class="modal_form_input_wrap">
+                                <div class="modal_input_error">Заполните поле
+                                    <div class="modal_error_triangle"></div>
+                                    <div class="modal_error_chest_img"></div>
+                                </div>
+                                <input name="email" class="modal_form_email" type="text" placeholder="Email">
+                            </div>
+                            <input type="submit" class="button_footer" value="Заказать потолки">
+                            <input type="hidden" name="form_name" value="Бесплатная консультация">
+                            <input type="hidden" name="equipment_parts" value="">
+                            <input type="hidden" name="id_form" value="form_2">
+                        </form>
+                    </div>
+                    <div class="contacts col-lg-5 col-md-5 col-sm-6 col-xs-12">
+                        <h4>Контакты</h4>
+                        <p>Центральный офис Атриум<br>г. Ульяновск, ул. Олега Кошевого 132<br>Часы работы: каждый день 9:00-21:00<br>
+                            <a href="tel:754766">тел: 754-766</a><br>
+                            <a href="tel:+89279856868">тел: +8 (927) 984 6868</a><br>
+                            <a href="mailto:ligapotolki@yandex.ru">email: ligapotolki@yandex.ru</a>     
+                        </p>
+                        <a href="https://vk.com/ligapotolki"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                        <a href="https://UCOPDNKxkSrds-aXlquymM6g"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="footer_bottom col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <span class="copyright">©2016 Все права защищены</span>
+                    <a href="#" class="confidentiality modal" data-modal="modal-3" data-info="Политика конфиденциальности">Политика конфиденциальности</a>
+                    <span class="creation">Создание сайта: <a href="http://melfori.com"><img src="img/melfori_logo.png"></a></span>
+                </div>
+            </div>
+        </div>
+    </section>
+<div class="hidden"></div>
+    <!--[if lt IE 9]>
+    <script src="libs/html5shiv/es5-shim.min.js"></script>
+    <script src="libs/html5shiv/html5shiv.min.js"></script>
+    <script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>`
+    <script src="libs/respond/respond.min.js"></script>
+    <![endif]-->
+    <!-- Load Scripts Start -->
+    <script type="text/javascript" src="js/jquery.1.7.1.min.js"></script>
+    <!-- <script type="text/javascript">
+        $(document).ready(function(){
+            // Фикмированная шапка при скролле
+            $(".header_head").removeClass("default");
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 150) {
+                    $(".header_head").addClass("default").fadeIn('fast');
+                } else {
+                    $(".header_head").removeClass("default").fadeIn('fast');
+                };
+            });
+        });
+    </script> -->
+    <script>
+        var scr = {
+            "scripts": [{
+                "src": "js/libs.js",
+                "async": false
+            }, {
+                "src": "js/common.js",
+                "async": false
+            }]
+        };
+        ! function(t, n, r) {
+            "use strict";
+            var c = function(t) {
+                if ("[object Array]" !== Object.prototype.toString.call(t)) return !1;
+                for (var r = 0; r < t.length; r++) {
+                    var c = n.createElement("script"),
+                    e = t[r];
+                    c.src = e.src, c.async = e.async, n.body.appendChild(c)
+                }
+                return !0
+            };
+            t.addEventListener ? t.addEventListener("load", function() {
+                c(r.scripts);
+            }, !1) : t.attachEvent ? t.attachEvent("onload", function() {
+                c(r.scripts)
+            }) : t.onload = function() {
+                c(r.scripts)
+            }
+        }(window, document, scr);
+    </script>
+    <!-- Load Scripts End -->
+</body>
+
+</html>
